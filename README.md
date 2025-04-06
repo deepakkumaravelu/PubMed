@@ -23,29 +23,6 @@ This React-based tool allows users to search PubMed articles either by manually 
 
 ---
 
-## 📁 File Structure
-
-pudmed/
-│
-├── client/
-│   ├── src/
-│   ├── components/
-│   │   └── TextEditorWithPubMed.js   # Main React component
-│   │   └── SearchBarWithEditor.css  # Styles for the component
-│   │
-│   ├── App.js                    # Main app entry rendering the component
-│   ├── index.js                  # ReactDOM rendering
-│   └── index.css                 # Global styles (optional)
-│
-├── server/                      # (Optional) Backend API using Express
-│   └── server.js                 # Proxy server to fetch PubMed data
-│
-├── README.md                    # Project readme file
-└── LICENSE                      # Optional open-source license
-
-
----
-
 🧪 Usage
 Type a keyword in the search bar and hit "Search" to query PubMed.
 
@@ -58,6 +35,8 @@ You’ll need a backend proxy API running to fetch PubMed search results (PubMed
 
 Modify fetch() URL in SearchBarWithEditor.js if your API path is different.
 
+
+
 ## ⚙️ Installation
 
 1. **Clone the repository:**
@@ -65,8 +44,16 @@ Modify fetch() URL in SearchBarWithEditor.js if your API path is different.
    git clone https://github.com/yourusername/pubmed-search-tool.git
    cd pudmed
 
-npm install       # Install all dependencies
-npm start         # Run the React development server
-npm run build     # Create an optimized production build
+
+Run the Development Environment
+Start the server:
+
+cd server
+node server.js
+
+Start the client:
+
+cd ../client
+npm start
 
 
