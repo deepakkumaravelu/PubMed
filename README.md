@@ -42,7 +42,7 @@ Modify fetch() URL in SearchBarWithEditor.js if your API path is different.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/pubmed-search-tool.git
-   cd pudmed
+   cd pubmed
 
 
 Run the Development Environment
