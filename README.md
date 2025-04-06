@@ -46,14 +46,14 @@ Modify fetch() URL in SearchBarWithEditor.js if your API path is different.
 
 
 Run the Development Environment
-Start the server:
+# Start the server:
 
-cd server
-node server.js
+- cd server
+- node server.js
 
-Start the client:
+# Start the client:
 
-cd ../client
-npm start
+- cd ../client
+- npm start
 
 
