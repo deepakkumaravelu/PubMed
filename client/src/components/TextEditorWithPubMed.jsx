@@ -11,7 +11,7 @@ function SearchBarWithEditor() {
   // Fetch PubMed search results
   const fetchResults = async (term) => {
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/pubmed?term=${term}`);
+      const response = await fetch(`${import.meta.env.VITE_API_URL}api/pubmed?term=${term}`);
       const htmlText = await response.text();
       const parser = new DOMParser();
       const doc = parser.parseFromString(htmlText, "text/html");
