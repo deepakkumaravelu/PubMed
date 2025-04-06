@@ -23,14 +23,14 @@ This React-based tool allows users to search PubMed articles either by manually 
 
 ---
 
-🧪 Usage
+# 🧪 Usage
 Type a keyword in the search bar and hit "Search" to query PubMed.
 
 Alternatively, type or paste text in the editor, highlight a word/phrase, and click the search icon that appears to trigger a contextual search.
 
 Click on a result to open the full article on PubMed.
 
-📌 Notes
+# 📌 Notes
 You’ll need a backend proxy API running to fetch PubMed search results (PubMed doesn’t offer direct open CORS access).
 
 Modify fetch() URL in SearchBarWithEditor.js if your API path is different.
