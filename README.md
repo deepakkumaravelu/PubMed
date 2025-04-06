@@ -54,7 +54,7 @@ Run the Development Environment
 # Start the client:
 
 - cd ../client
-- npm start
+- npm run dev
 
 # Search result for keyword corona
 ![search result for corona]({D7C9A822-CBCD-4682-A7F2-FEC9D91A94FC}.png)
