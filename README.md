@@ -56,4 +56,9 @@ Run the Development Environment
 - cd ../client
 - npm start
 
+# Search result for keyword corona
 ![search result for corona]({D7C9A822-CBCD-4682-A7F2-FEC9D91A94FC}.png)
+# Text select 
+![text select for search]({77461F6C-676A-47AA-93A9-123031B49889}.png)
+# Result for selected text
+![result for selected text]({E5296CBD-B01D-444D-998F-4A33B34C7235}.png)
